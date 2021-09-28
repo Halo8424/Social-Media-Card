@@ -2,3 +2,4 @@
 
 ## Personal Growth
 - backdrop-filter: blur();
+- object-fit: cover;
