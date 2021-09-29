@@ -89,6 +89,10 @@
     color: rgb(66, 66, 230);
     border: 1px solid rgb(66, 66, 230);
 }
+.card__icon--fb:hover{
+    background: rgb(66, 66, 230);
+    color: #fff;
+}
 .card__icon--ig{
     color: rgb(133, 33, 163);
     border: 1px solid rgb(133, 33, 163);
