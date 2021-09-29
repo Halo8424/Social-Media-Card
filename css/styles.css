@@ -89,3 +89,11 @@
     color: rgb(66, 66, 230);
     border: 1px solid rgb(66, 66, 230);
 }
+.card__icon--ig{
+    color: rgb(133, 33, 163);
+    border: 1px solid rgb(133, 33, 163);
+}
+.card__icon--db{
+    color: rgb(226, 34, 233);
+    border: 1px solid rgb(226, 34, 233);
+}
