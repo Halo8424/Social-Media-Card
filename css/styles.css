@@ -97,7 +97,15 @@
     color: rgb(133, 33, 163);
     border: 1px solid rgb(133, 33, 163);
 }
+.card__icon--ig:hover{
+    background: rgb(133, 33, 163);
+    color: #fff;
+}
 .card__icon--db{
     color: rgb(226, 34, 233);
     border: 1px solid rgb(226, 34, 233);
+}
+.card__icon--db:hover{
+    background: rgb(226, 34, 233);
+    color: #fff;
 }
