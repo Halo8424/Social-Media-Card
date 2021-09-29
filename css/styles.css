@@ -30,8 +30,20 @@
     border: 1px solid rgb(250, 107, 255);
     width: 70px;
     height: 70px;
-    margin-bottom: 2rem 0 1.5rem;
+    margin: 2rem 0 1.5rem;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+}
+
+.card__info{
+    margin-bottom: 2rem;
+}
+
+.card__name{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
