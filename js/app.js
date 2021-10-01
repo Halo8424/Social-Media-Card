@@ -26,15 +26,11 @@ let cardIconTitleFb = $("<a>").attr("class", "card__icon-title").attr("href","ht
 let instagramCard = $("<div>").attr("class", "card__icon card__icon--ig");
 let cardIconBoxInstagram = $("<span>").attr("class", "card__icon-box");
 let instagramIcon = $("<i>").attr("class", "fab fa-instagram");
-let cardIconTitleInstagram = $("<span>")
-  .attr("class", "card__icon-title")
-  .text("Instagram");
+let cardIconTitleInstagram = $("<a>").attr("class", "card__icon-title").attr("href","https://instagram.com").text("Instagram");
 let dribbleCard = $("<div>").attr("class", "card__icon card__icon--db");
 let cardIconBoxDb = $("<span>").attr("class", "card__icon-box");
 let dribbbleIcon = $("<i>").attr("class", "fab fa-dribbble");
-let cardIconTitleDb = $("<span>")
-  .attr("class", "card__icon-title")
-  .text("Dribbble");
+let cardIconTitleDb = $("<a>").attr("class", "card__icon-title").attr("href","https://dribbble.com").attr("target","_blank").text("Dribbble");
 
 
 
