@@ -30,7 +30,7 @@ let cardIconTitleInstagram = $("<a>").attr("class", "card__icon-title card__icon
 let dribbleCard = $("<div>").attr("class", "card__icon card__icon--db");
 let cardIconBoxDb = $("<span>").attr("class", "card__icon-box");
 let dribbbleIcon = $("<i>").attr("class", "fab fa-dribbble");
-let cardIconTitleDb = $("<a>").attr("class", "card__icon-title").attr("href","https://dribbble.com").attr("target","_blank").text("Dribbble");
+let cardIconTitleDb = $("<a>").attr("class", "card__icon-title card__icon-title--db").attr("href","https://dribbble.com").attr("target","_blank").text("Dribbble");
 
 
 

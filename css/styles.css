@@ -129,3 +129,10 @@
     background: rgb(226, 34, 233);
     color: #fff;
 }
+
+.card__icon-title--db{
+    color: rgb(226, 34, 233);
+}
+.card__icon-title--db:hover{
+    color: #fff;
+}
