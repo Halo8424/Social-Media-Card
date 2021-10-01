@@ -83,6 +83,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    text-decoration: none;
 }
 
 .card__icon--fb{
@@ -92,6 +93,13 @@
 
 .card__icon--fb:hover{
     background: rgb(66, 66, 230);
+    color: #fff;
+}
+
+.card__icon-title--fb{
+    color: rgb(66,66,230);
+}
+.card__icon-title--fb:hover{
     color: #fff;
 }
 
