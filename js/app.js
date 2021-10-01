@@ -2,7 +2,7 @@
 let userImgSrc =
   "https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ";
 let userName = "Kesha King";
-let userJobTitle = "Feild Training Partner";
+let userJobTitle = " Field  Training Partner";
 
 // ========================================================
 let root = $("#root");
