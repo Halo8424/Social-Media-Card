@@ -5,6 +5,9 @@ A social media card displaying a user image, position/title, and social media li
 
 **Check out the Social Media Card here** :point_right:[GitHub Pages](https://halo8424.github.io/Social-Media-Card/)
 
+## Social Media Card Image
+<img src="img/readMe-img.png" width=500>
+
 ## Personal Growth
 - jQuery syntax
 - .attr() attribute
