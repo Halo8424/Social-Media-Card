@@ -113,6 +113,13 @@
     color: #fff;
 }
 
+.card__icon-title--ig{
+    color: rgb(133, 33, 163);
+}
+.card__icon-title--ig:hover{
+    color: #fff;
+}
+
 .card__icon--db{
     color: rgb(226, 34, 233);
     border: 1px solid rgb(226, 34, 233);
