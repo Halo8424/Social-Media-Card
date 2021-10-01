@@ -1,5 +1,5 @@
 .content-area{
-    background: url("/img/socialMediaCard__bg-img-min.jpg");
+    background: url("../img/socialMediaCard__bg-img-min.jpg");
     background-size: cover;
     background-position: center;
 }
