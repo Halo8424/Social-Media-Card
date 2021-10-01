@@ -19,9 +19,10 @@ let cardSocials = $("<div>").attr("class", "card__socials");
 let faceBookCard = $("<div>").attr("class", "card__icon card__icon--fb");
 let cardIconBoxFb = $("<span>").attr("class", "card__icon-box");
 let faceBookIcon = $("<i>").attr("class", "fab fa-facebook-f");
-let cardIconTitleFb = $("<span>")
-  .attr("class", "card__icon-title")
-  .text("Facebook");
+// let cardIconTitleFb = $("<span>")
+//   .attr("class", "card__icon-title")
+//   .text("Facebook");
+let cardIconTitleFb = $("<a>").attr("class", "card__icon-title").attr("href","https://facebook.com").text("Facebook");
 let instagramCard = $("<div>").attr("class", "card__icon card__icon--ig");
 let cardIconBoxInstagram = $("<span>").attr("class", "card__icon-box");
 let instagramIcon = $("<i>").attr("class", "fab fa-instagram");
@@ -36,13 +37,14 @@ let cardIconTitleDb = $("<span>")
   .text("Dribbble");
 
 
-dribbleCard.append(cardIconBoxDb,cardIconTitleDb);
+
+dribbleCard.append(cardIconBoxDb, cardIconTitleDb);
 cardIconBoxDb.append(dribbbleIcon);
 cardIconBoxInstagram.append(instagramIcon);
 instagramCard.append(cardIconBoxInstagram, cardIconTitleInstagram);
 cardIconBoxFb.append(faceBookIcon);
 faceBookCard.append(cardIconBoxFb, cardIconTitleFb);
-cardSocials.append(faceBookCard, instagramCard,dribbleCard);
+cardSocials.append(faceBookCard, instagramCard, dribbleCard);
 cardInfo.append(cardName).append(cardTitle);
 cardWrapper.append(userImg).append(cardInfo).append(cardSocials);
 section.append(cardWrapper);
