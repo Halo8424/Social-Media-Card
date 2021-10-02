@@ -19,9 +19,6 @@ let cardSocials = $("<div>").attr("class", "card__socials");
 let faceBookCard = $("<div>").attr("class", "card__icon card__icon--fb");
 let cardIconBoxFb = $("<span>").attr("class", "card__icon-box");
 let faceBookIcon = $("<i>").attr("class", "fab fa-facebook-f");
-// let cardIconTitleFb = $("<span>")
-//   .attr("class", "card__icon-title")
-//   .text("Facebook");
 let cardIconTitleFb = $("<a>").attr("class", "card__icon-title card__icon-title--fb").attr("href","https://facebook.com").attr("target","_blank").text("Facebook");
 let instagramCard = $("<div>").attr("class", "card__icon card__icon--ig");
 let cardIconBoxInstagram = $("<span>").attr("class", "card__icon-box");
